@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ssdpestcontrol.com/sitemap.xml
