@@ -61,7 +61,7 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 		</div>
 
 		<!-- Page Title -->
-		<section class="page-title style-two" style="background-image: url(assets/images/background/Cockroac.png);">
+		<section class="page-title style-two page-banner cockroach" style="">
 			</br>
 			</br>
 			<div class="row">

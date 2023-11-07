@@ -4,6 +4,37 @@
 <head>
 	<?php $this->load->view('components/_coomon_head'); ?>
 	<title>SSD Pest Conterol - Best Pest Control Service In Mumbai | Top Pest Control Near Me | Mumbai Pest Control</title>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "SSD Pest Control",
+			"alternateName": "SSD Pest Control Services in Mumbai | Thane | Navi Mumbai | Amravati",
+			"url": "https://ssdpestcontrol.com/",
+			"logo": "https://ssdpestcontrol.com/assets/images/weblogo.png",
+			"contactPoint": [{
+				"@type": "ContactPoint",
+				"telephone": "9820524866",
+				"contactType": "customer service",
+				"areaServed": "IN",
+				"availableLanguage": ["en", "Hindi", "Marathi"]
+			}, {
+				"@type": "ContactPoint",
+				"telephone": "9594232394",
+				"contactType": "customer service",
+				"areaServed": "IN",
+				"availableLanguage": ["en", "Hindi", "Marathi"]
+			}],
+			"sameAs": [
+				"https://www.facebook.com/ssdpestcontrol",
+				"https://twitter.com/ssdpestcontrol_",
+				"https://www.instagram.com/ssdpestcontrol_/",
+				"https://in.linkedin.com/company/ssdpestcontrol",
+				"https://ssdpestcontrol.com/",
+				"https://www.youtube.com/@SSDPESTCONTROLSERVICE"
+			]
+		}
+	</script>
 </head>
 
 <body>

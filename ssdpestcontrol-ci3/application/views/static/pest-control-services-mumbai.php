@@ -28,6 +28,48 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "SSD Pest Control",
+			"image": "https://ssdpestcontrol.com/assets/images/weblogo.png",
+			"@id": "",
+			"url": "https://ssdpestcontrol.com/pest-control-services-mumbai",
+			"telephone": "98205 24866",
+			"priceRange": "$",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "ROOM NO 3, SAHKAR SADAN GHARATAN PADA, SN Dube Rd, nr. MARBLE HEIGHTS, Ashok Nagar, Ghartan Pada, Dahisar East, Mumbai, Maharashtra",
+				"addressLocality": "Mumbai",
+				"postalCode": "400068",
+				"addressCountry": "IN"
+			},
+			"openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday",
+					"Sunday"
+				],
+				"opens": "00:00",
+				"closes": "23:59"
+			},
+			"sameAs": [
+				"https://www.facebook.com/ssdpestcontrol",
+				"https://twitter.com/ssdpestcontrol_",
+				"https://www.instagram.com/ssdpestcontrol_/",
+				"https://www.youtube.com/@SSDPESTCONTROLSERVICE",
+				"https://in.linkedin.com/company/ssdpestcontrol",
+				"https://ssdpestcontrol.com/"
+			]
+		}
+	</script>
 </head>
 
 <body>
@@ -60,30 +102,30 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 		</div>
 
 		<!-- Page Title -->
-		<section class="page-title" style="background-image: url(assets/images/background/mumbai.jpg);">
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			<div class="row">
-				<div class="btn-group btn-breadcrumb">
-					<a href="#" class="btn btn-info">Home</a>
-					<a href="#" class="btn btn-info">Pest Control Services </a>
-					<a href="#" class="btn btn-info">Mumbai </a>
+		<section class="banner-section location-banner breadcrumb-banner">
+			<div class="media-content">
+				<div class="wrap">
+					<picture>
+						<source media="screen and (min-width: 512px)" srcset="<?= base_url('assets/images/banners/location_mumbai_h.png') ?>">
+						<img src="<?= base_url('assets/images/banners/location_mumbai_v.png') ?>" alt="">
+					</picture>
+				</div>
+			</div>
+			<div class="text-content">
+				<div class="row">
+					<div class="btn-group btn-breadcrumb">
+						<a href="#" class="btn btn-info">Home</a>
+						<a href="#" class="btn btn-info">Pest Control Services </a>
+						<a href="#" class="btn btn-info">Mumbai </a>
 
+					</div>
 				</div>
 			</div>
 		</section>
 		<ul class="breadcrumb">
 			<h5 class="table text-center"> FLAT 15% OFF!! ON ALL PEST CONTROL ANNUAL CONTRACTS (Toll Free) <a href="tel:+919820524866">+91 9820524866</a> </h5>
 		</ul>
-		
+
 
 		<?php $this->load->view('components/_common_location'); ?>
 

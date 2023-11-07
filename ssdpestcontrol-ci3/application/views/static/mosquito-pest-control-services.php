@@ -61,7 +61,7 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 		</div>
 
 		<!-- Page Title -->
-		<section class="page-title style-two" style="background-image: url(assets/images/background/mosquito-control1.jpg);">
+		<section class="page-title style-two page-banner mosquito">
 			</br>
 			</br>
 			<div class="row">
@@ -262,7 +262,7 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 
 		</div>
 
-		<?php $this->load->view("components/_common_footer"); ?>
+
 
 		<!-- Services Details -->
 		<section class=" d-none service-details">
@@ -499,12 +499,10 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 				</div>
 			</div>
 		</section>
-
-
-		<?php $this->load->view('components/footer'); ?>
-
+		
+		<?php $this->load->view("components/_common_footer"); ?>
 	</div>
-	
+
 	<!--End pagewrapper-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<a href="https://api.whatsapp.com/send/?phone=919594232394&text&type=phone_number&app_absent=0" class="float" target="_blank">

@@ -9,12 +9,15 @@ class PagesController extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->library('captchalibrary');
+		$this->load->library('CaptchaLibrary');
 	}
 
 	public function index()
 	{
-		$this->load->view('pages/index');
+		$captcha = $this->captchalibrary->create();
+		$this->session->set_flashdata('captcha_text', $captcha['word']);
+		$this->user_data['form_captcha'] = $captcha;
+		$this->load->view('pages/index', $this->user_data);
 	}
 
 	public function static($url)
@@ -37,7 +40,7 @@ class PagesController extends CI_Controller
 
 			default:
 				$captcha = $this->captchalibrary->create();
-				$this->session->set_flashdata('captcha_text', $captcha['text']);
+				$this->session->set_flashdata('captcha_text', $captcha['word']);
 				$this->user_data['form_captcha'] = $captcha;
 				if (is_file(APPPATH . 'views/static/' . $url . ".php")) {
 					$this->load->view('static/' . $url, $this->user_data);

@@ -25,6 +25,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "BreadcrumbList",
+			"itemListElement": [{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Home Page",
+				"item": "https://ssdpestcontrol.com/"
+			}, {
+				"@type": "ListItem",
+				"position": 2,
+				"name": "About us",
+				"item": "https://ssdpestcontrol.com/about-us"
+			}]
+		}
+	</script>
 </head>
 
 <body>
