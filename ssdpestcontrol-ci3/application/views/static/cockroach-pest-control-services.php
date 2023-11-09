@@ -3,11 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Cockroach Control Service In Mumbai | Top Cockroach Control Near Me | Mumbai Pest Control</title>
-	<meta name="description" content="Highly effective Cockroach control services offered by us in Mumbai, Thane, Pune, Goa. SSD pest control is best professional Cockroach Control Company, providing safe & secure pest solutions.">
-	<meta name="keywords" content="Cockroach Pest Control Services, Cockroach Control Company, Cockroach Control in Mumbai, 
-Cockroach Control in borivali, Cockroach Control Services in Thane, Cockroach Pest Control Services in Pune, Cockroach Pest 
-Control Services in Goa, Best Cockroach Pest Control Company" />
+	<title>Cockroach Pest Control Service In Mumbai, Amravati, Thane, Navi-Mumbai - SSD Pest Control</title>
+	<meta name="description" content="Highly effective Cockroach Pest Control Service In Mumbai, Amravati, Thane, Navi-Mumbai - SSD Pest Control is best professional Cockroach Control Company, providing safe & secure pest solutions.">
+	<meta name="keywords" content="Cockroach Pest Control Services, Cockroach Control Company, Best Cockroach Pest Control Company" />
 
 	<!-- Stylesheets -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -82,16 +80,71 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 				<div class="row m-0 mb-3">
 					<div class="col-lg-7 col-md-6 col-12">
 						<div class="context-block">
-							<h2>Cockroach Control Services in Mumbai</h2>
+							<h2>Cockroach Pest Control Services </h2>
 							<p>
-								Dealing with a Cockroach infestation can be a nightmare, but there's a reliable solution at your fingertips. SSD Pest Control Service, a trusted brand in the industry, offers exceptional Cockroach pest control services. In this comprehensive guide, we will explore the ins and outs of Cockroach control, highlighting the expertise and effectiveness of SSD Pest Control Service.
+								Cockroaches are unwelcome guests in any household. Their presence can be a nuisance and a health hazard. If you're in need of effective pest control services, look no further than SSD Pest Control. We specialize in eradicating cockroach infestations and ensuring your home remains pest-free.
+									</p>
+									<br>
+									<p>
+									    When it comes to pest control, SSD Pest Control stands out as a reliable and experienced service provider. We offer customized solutions to address your unique pest problems. Our approach is built on expertise, authority, and trust, making us the preferred choice for countless homeowners.
+								</p>
+								<br>
+								<p>Dealing with a Cockroach infestation can be a nightmare, but there's a reliable solution at your fingertips. SSD Pest Control Service, a trusted brand in the industry, offers exceptional Cockroach pest control services. In this comprehensive guide, we will explore the ins and outs of Cockroach control, highlighting the expertise and effectiveness of SSD Pest Control Service.</p>
+
 							</p>
 						</div>
 					</div>
 					<div class="col-lg-5 col-md-6 col-12">
 						<?php $this->load->view('form/short_enquiry') ?>
 					</div>
+					</div>
 				</div>
+				</section>
+				
+				<section class="service-details">
+			<div class="auto-container">
+				<div class="row m-0 mb-3">
+					<div class="col-lg-5 col-md-6 col-12"></div>
+					<div class="col-lg-7 col-md-6 col-12">
+						<div class="context-block">
+							<h2>Residential Pest Control Services</h2>
+							<p>
+								Thorough Inspection: We begin by conducting a detailed inspection of your home to identify cockroach hotspots and entry points.
+
+Customized Treatment Plan: Based on the inspection results, we create a customized treatment plan tailored to your specific needs.
+
+Safe and Effective Solutions: We use safe and environmentally friendly methods to eliminate cockroaches while minimizing any risks to your family, pets, and the environment.
+
+Ongoing Prevention: Our services include preventative measures to help keep cockroaches from returning in the future.
+
+
+							</p>
+						
+						</div>
+					</div>
+				</div>
+				<div class="row m-0 mb-3 flex-row-reverse">
+					<div class="col-lg-5 col-md-6 col-12"></div>
+					<div class="col-lg-7 col-md-6 col-12">
+						<div class="context-block">
+							<h2>Cpmmercial Pest Control Services</h2>
+							<p>
+								Detailed Assessment: We conduct a comprehensive assessment of your commercial property, including kitchens, storage areas, and any potential hiding spots for cockroaches.
+
+Pest Management Plan: We develop a strategic pest management plan to address the unique challenges of your business, ensuring minimal disruption to your operations.
+
+Fast and Discreet Service: We understand the importance of maintaining your reputation, so our services are performed swiftly and discreetly.
+
+Compliance and Documentation: We adhere to all relevant regulations and provide detailed documentation of our services for your records.
+
+							</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+				
 				<div class="row d-none">
 					<div class="col-lg-8 order-lg-2">
 						<div class="context-block">
@@ -272,6 +325,62 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 										<p> Yes, SSD Pest Control offers advanced cockroach control treatments that are effective in repelling all
 											cockroaches away from their hideouts in your home. However, the efficacy of the treatment will be
 											best seen after 15 days of the treatment under controlled conditions.</p>
+									</div>
+								</div>
+							</div>
+								<div class="card">
+								<div class="card-header" id="faqHeading-4">
+									<div class="mb-0">
+										<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+											<span class="badge">6</span>How do cockroaches enter my home?
+										</h5>
+									</div>
+								</div>
+								<div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+									<div class="card-body">
+										<p> Cockroaches can enter through cracks, gaps, and open doors or windows. They're attracted to warmth and food sources.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faqHeading-4">
+									<div class="mb-0">
+										<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+											<span class="badge">7</span>Do cockroaches carry diseases?
+										</h5>
+									</div>
+								</div>
+								<div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+									<div class="card-body">
+										<p>  Yes, cockroaches can carry diseases and allergens that pose health risks. Prompt pest control is essential to safeguard your family's health.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faqHeading-4">
+									<div class="mb-0">
+										<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+											<span class="badge">8</span>Can I attempt DIY cockroach control?
+										</h5>
+									</div>
+								</div>
+								<div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+									<div class="card-body">
+										<p>  While DIY methods may provide temporary relief, professional pest control is recommended for complete and lasting eradication.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="faqHeading-4">
+									<div class="mb-0">
+										<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+											<span class="badge">9</span>What measures can I take to prevent cockroach infestations?
+										</h5>
+									</div>
+								</div>
+								<div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+									<div class="card-body">
+										<p>  Keep your home clean, seal entry points, and fix any leaks. Regular professional inspections also help.</p>
 									</div>
 								</div>
 							</div>

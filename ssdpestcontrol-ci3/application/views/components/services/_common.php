@@ -7,19 +7,21 @@
 					<div class="sub-title">Why Choose us</div>
 					<h2>We Treat Your Home <br> Like It's Our Own</h2>
 				</div>
-				<div class="text mb-40">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiu smod tempor.</div>
+				<div class="text mb-40">Choose SSD Pest Control Services for a pest-free environment backed by experience, expertise, and a commitment to excellence. Your peace of mind is our priority!
+</div>
 				<div class="icon-box">
 					<div class="icon"><span class="flaticon-settings"></span></div>
 					<div class="content">
-						<h4>Top Rated Services</h4>
-						<div class="text">Lorem ipsum dolor sit amet consect. elit sed do smod.</div>
+						<h4>Safe and Eco-Friendly:</h4>
+						<div class="text"> Your safety and the environment are our top priorities. We use eco-friendly products and methods that are tough on pests but gentle on the planet and your health.</div>
 					</div>
 				</div>
 				<div class="icon-box">
 					<div class="icon"><span class="flaticon-pesticide"></span></div>
 					<div class="content">
-						<h4>Fully Equipmented</h4>
-						<div class="text">Lorem ipsum dolor sit amet consect. elit sed do smod.</div>
+						<h4>Experience and Expertise:</h4>
+						<div class="text"> With over a decade of experience, we bring unmatched expertise to every job. Our seasoned professionals understand pests inside out, ensuring effective and lasting solutions.
+</div>
 					</div>
 				</div>
 			</div>
@@ -33,7 +35,7 @@
 					<div class="author-info" data-parallax='{"y": 40}'>
 						<div class="author"><img loading="lazy" src="assets/images/resource/author-1.jpg" alt=""></div>
 						<h4>Years of Experiences</h4>
-						<div class="link"><a href="#" class="theme-btn btn-style-one style-three"><span>Expeart</span></a></div>
+						<div class="link"><a href="#" class="theme-btn btn-style-one style-three"><span>Expert</span></a></div>
 					</div>
 					<a href="tel:2107636992" class="phone">
 						<img loading="lazy" src="assets/images/icons/icon-3.png" alt="">

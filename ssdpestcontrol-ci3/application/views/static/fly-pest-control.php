@@ -313,12 +313,11 @@ Control Mumbai, Best Fly Pest Control Mumbai" />
 					</div>
 					<div class="col-md-12 offset-md-12">
 						<div class="faq" id="accordion">
-							<?php for ($i = 1; $i <= 10; $i++) : ?>
 								<div class="card">
 									<div class="card-header" id="faqHeading-1">
 										<div class="mb-0">
 											<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-												<span class="badge"><?= $i ?></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptates?
+												<span class="badge">1</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptates?
 											</h5>
 										</div>
 									</div>
@@ -328,7 +327,6 @@ Control Mumbai, Best Fly Pest Control Mumbai" />
 										</div>
 									</div>
 								</div>
-							<?php endfor ?>
 						</div>
 					</div>
 				</div>
