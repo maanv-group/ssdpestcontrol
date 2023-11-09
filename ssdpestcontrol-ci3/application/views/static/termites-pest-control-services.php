@@ -278,128 +278,7 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 
 		<?php $this->load->view('components/services/_common')  ?>
 
-		<!-- Gallery Section -->
-		<section class="gallery-section">
-			<div class="auto-container">
-				<!--Filter-->
-				<div class="filters">
-					<ul class="filter-tabs filter-btns">
-						<!-- <li class="filter active" data-role="button" data-filter=".all"> All</li> -->
-						<!-- <li class="filter" data-role="button" data-filter=".cat-2">Termites</li> -->
-						<!-- <li class="filter" data-role="button" data-filter=".cat-3">Bed Bug</li> -->
-						<!-- <li class="filter" data-role="button" data-filter=".cat-4">Rodents</li> -->
-						<!-- <li class="filter" data-role="button" data-filter=".cat-2">Commercial</li> -->
-						<!-- <li class="filter" data-role="button" data-filter=".cat-3">Residential</li> -->
-						<!-- <li class="filter" data-role="button" data-filter=".cat-5">Bird Netting</li> -->
-					</ul>
-				</div>
-
-				<!--Sortable Galery-->
-				<div class="sortable-masonry">
-
-					<div class="items-container row">
-						<!-- Gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-1.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- gallery Block -->
-
-
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-5.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-5.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-8.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-8.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-11.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-11.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-12.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-12.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/Mosquito1.jpeg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/Mosquito1.jpeg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/Mosquito2.jpeg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/Mosquito2.jpeg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<?php $this->load->view('sections/_common_gallery')  ?>
 
 		<!-- FAQ -->
 		<section class="faq-section mt-5">
@@ -414,22 +293,91 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 					</div>
 					<div class="col-md-12 offset-md-12">
 						<div class="faq" id="accordion">
-							<?php for ($i = 1; $i <= 10; $i++) : ?>
+							
 								<div class="card">
 									<div class="card-header" id="faqHeading-1">
 										<div class="mb-0">
 											<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-												<span class="badge"><?= $i ?></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptates?
+												<span class="badge">1</span>How much does termite pest control cost in Mumbai?
 											</h5>
 										</div>
 									</div>
 									<div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
 										<div class="card-body">
-											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, illum? Accusamus culpa aperiam impedit, ab sequi inventore voluptatum officiis iste, maiores perspiciatis vel sunt harum adipisci fuga nisi provident amet?</p>
+											<p>The cost varies depending on the size of your property, the severity of the infestation, and the treatment method used. It's best to get a quote from a professional pest control service.</p>
 										</div>
 									</div>
 								</div>
-							<?php endfor ?>
+									<div class="card">
+									<div class="card-header" id="faqHeading-1">
+										<div class="mb-0">
+											<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+												<span class="badge">2</span> What can I do to prevent termite infestations in my Mumbai home?
+											</h5>
+										</div>
+									</div>
+									<div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+										<div class="card-body">
+											<p>To prevent termites, keep wood away from direct soil contact, fix leaks promptly, and maintain good ventilation in your home. Regular inspections and termite-resistant construction materials can also help.</p>
+										</div>
+									</div>
+								</div>
+						<div class="card">
+									<div class="card-header" id="faqHeading-1">
+										<div class="mb-0">
+											<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+												<span class="badge">3</span> How often should I schedule termite inspections for my Mumbai home?
+											</h5>
+										</div>
+									</div>
+									<div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+										<div class="card-body">
+											<p>It's advisable to have annual termite inspections for preventive purposes. However, if you live in an area with a high termite risk, more frequent inspections may be recommended.</p>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="faqHeading-1">
+										<div class="mb-0">
+											<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+												<span class="badge">2</span>  Is it necessary to vacate my home during termite treatment in Mumbai?
+											</h5>
+										</div>
+									</div>
+									<div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+										<div class="card-body">
+											<p>In most cases, you don't need to vacate your home during termite treatments. However, you may be asked to stay away from treated areas for a specified period, which will be communicated by the pest control experts.</p>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="faqHeading-1">
+										<div class="mb-0">
+											<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+												<span class="badge">2</span> Do termites return after treatment?
+											</h5>
+										</div>
+									</div>
+									<div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+										<div class="card-body">
+											<p>Termites can return if not all colonies are eliminated. Regular inspections are vital.</p>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="faqHeading-1">
+										<div class="mb-0">
+											<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+												<span class="badge">2</span> Can I DIY termite control?
+											</h5>
+										</div>
+									</div>
+									<div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+										<div class="card-body">
+											<p>While some prevention steps can be DIY, it's best to leave treatment to professionals.</p>
+										</div>
+									</div>
+								</div>
 						</div>
 					</div>
 				</div>

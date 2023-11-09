@@ -205,12 +205,12 @@
 
 					<div class="items-container row">
 						<!-- Gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
+						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
 							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-1.jpg" alt=""></div>
+								<div class="image"><img loading="lazy" src="assets/images/gallery/rat-rodent/1.jpg" alt=""></div>
 								<div class="overlay">
 									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery">
+										<a href="assets/images/gallery/rat-rodent/1.jpg" class="lightbox-image" data-fancybox="gallery">
 											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
 										</a>
 									</div>
@@ -224,10 +224,10 @@
 						<!-- gallery Block -->
 						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
 							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-5.jpg" alt=""></div>
+								<div class="image"><img loading="lazy" src="assets/images/gallery/rat-rodent/2.jpg" alt=""></div>
 								<div class="overlay">
 									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-5.jpg" class="lightbox-image" data-fancybox="gallery">
+										<a href="assets/images/gallery/rat-rodent/2.jpg" class="lightbox-image" data-fancybox="gallery">
 											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
 										</a>
 									</div>
@@ -236,66 +236,27 @@
 						</div>
 
 
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-8.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-8.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-11.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-11.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-12.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-12.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
 						<!-- gallery Block -->
 						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
 							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/Mosquito1.jpeg" alt=""></div>
+								<div class="image"><img loading="lazy" src="assets/images/gallery/rat-rodent/3.jpg" alt=""></div>
 								<div class="overlay">
 									<div class="zoom-btn">
-										<a href="assets/images/resource/Mosquito1.jpeg" class="lightbox-image" data-fancybox="gallery">
+										<a href="assets/images/gallery/rat-rodent/3.jpg" class="lightbox-image" data-fancybox="gallery">
 											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
 										</a>
 									</div>
 								</div>
 							</div>
 						</div>
+
 						<!-- gallery Block -->
 						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
 							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/Mosquito2.jpeg" alt=""></div>
+								<div class="image"><img loading="lazy" src="assets/images/gallery/rat-rodent/4.jpg" alt=""></div>
 								<div class="overlay">
 									<div class="zoom-btn">
-										<a href="assets/images/resource/Mosquito2.jpeg" class="lightbox-image" data-fancybox="gallery">
+										<a href="assets/images/gallery/rat-rodent/4.jpg" class="lightbox-image" data-fancybox="gallery">
 											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
 										</a>
 									</div>

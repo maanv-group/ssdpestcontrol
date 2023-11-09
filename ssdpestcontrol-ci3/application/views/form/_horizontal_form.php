@@ -28,7 +28,7 @@
 						<input type="text" name="contact_enq" placeholder="Phone" required>
 					</div>
 					<div class="form-group col-lg-3 col-md-6 col-sm-12">
-						<input type="email" name="email_enq" placeholder="Email" required>
+						<!-- <input type="email" name="email_enq" placeholder="Email" required> -->
 					</div>
 					<div class="form-group col-lg-3 col-md-6 col-sm-12">
 						<button type="submit" class="theme-btn btn-style-one"><span>Get Started</span></button>

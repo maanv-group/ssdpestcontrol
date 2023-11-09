@@ -77,7 +77,7 @@ Control Services in Goa, Best Rodents Pest Control Company" />
 			<h5 class="table text-center"> FLAT 15% OFF!! ON ALL PEST CONTROL ANNUAL CONTRACTS (Toll Free) <a href="tel:+919820524866">+91 9820524866</a> </h5>
 		</ul>
 
-		
+
 
 		<!-- Services Details -->
 		<section class="service-details">
@@ -210,7 +210,7 @@ Control Services in Goa, Best Rodents Pest Control Company" />
 				</div>
 			</div>
 		</section>
-		
+
 		<?php $this->load->view('components/services/_common')  ?>
 
 
@@ -235,12 +235,12 @@ Control Services in Goa, Best Rodents Pest Control Company" />
 
 					<div class="items-container row">
 						<!-- Gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
+						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
 							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-1.jpg" alt=""></div>
+								<div class="image"><img loading="lazy" src="assets/images/gallery/rat-rodent/1.jpg" alt=""></div>
 								<div class="overlay">
 									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery">
+										<a href="assets/images/gallery/rat-rodent/1.jpg" class="lightbox-image" data-fancybox="gallery">
 											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
 										</a>
 									</div>
@@ -254,10 +254,10 @@ Control Services in Goa, Best Rodents Pest Control Company" />
 						<!-- gallery Block -->
 						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
 							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-5.jpg" alt=""></div>
+								<div class="image"><img loading="lazy" src="assets/images/gallery/rat-rodent/2.jpg" alt=""></div>
 								<div class="overlay">
 									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-5.jpg" class="lightbox-image" data-fancybox="gallery">
+										<a href="assets/images/gallery/rat-rodent/2.jpg" class="lightbox-image" data-fancybox="gallery">
 											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
 										</a>
 									</div>
@@ -266,66 +266,27 @@ Control Services in Goa, Best Rodents Pest Control Company" />
 						</div>
 
 
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-8.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-8.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-11.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-11.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- gallery Block -->
-						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-2">
-							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/gallery-12.jpg" alt=""></div>
-								<div class="overlay">
-									<div class="zoom-btn">
-										<a href="assets/images/resource/gallery-12.jpg" class="lightbox-image" data-fancybox="gallery">
-											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
 						<!-- gallery Block -->
 						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
 							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/Mosquito1.jpeg" alt=""></div>
+								<div class="image"><img loading="lazy" src="assets/images/gallery/rat-rodent/3.jpg" alt=""></div>
 								<div class="overlay">
 									<div class="zoom-btn">
-										<a href="assets/images/resource/Mosquito1.jpeg" class="lightbox-image" data-fancybox="gallery">
+										<a href="assets/images/gallery/rat-rodent/3.jpg" class="lightbox-image" data-fancybox="gallery">
 											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
 										</a>
 									</div>
 								</div>
 							</div>
 						</div>
+
 						<!-- gallery Block -->
 						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
 							<div class="inner-box">
-								<div class="image"><img loading="lazy" src="assets/images/resource/Mosquito2.jpeg" alt=""></div>
+								<div class="image"><img loading="lazy" src="assets/images/gallery/rat-rodent/4.jpg" alt=""></div>
 								<div class="overlay">
 									<div class="zoom-btn">
-										<a href="assets/images/resource/Mosquito2.jpeg" class="lightbox-image" data-fancybox="gallery">
+										<a href="assets/images/gallery/rat-rodent/4.jpg" class="lightbox-image" data-fancybox="gallery">
 											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
 										</a>
 									</div>

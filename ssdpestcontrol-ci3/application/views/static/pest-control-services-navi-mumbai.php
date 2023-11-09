@@ -61,21 +61,22 @@ Control Services in Goa, Best Cockroach Pest Control Company" />
 		</div>
 
 		<!-- Page Title -->
-		<section class="page-title" style="background-image: url(assets/images/background/navimumbai.jpg);">
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			<div class="row">
-				<div class="btn-group btn-breadcrumb">
-					<a href="#" class="btn btn-info">Home</a>
-					<a href="#" class="btn btn-info">Pest Control Services </a>
-					<a href="#" class="btn btn-info">Navi-Mumbai </a>
-
+		<section class="banner-section location-banner breadcrumb-banner">
+			<div class="media-content">
+				<div class="wrap">
+					<picture>
+						<source media="screen and (min-width: 512px)" srcset="<?= base_url('assets/images/banners/location_navi-mumbai_h.png') ?>">
+						<img src="<?= base_url('assets/images/banners/location_navi-mumbai_v.png') ?>" alt="">
+					</picture>
+				</div>
+			</div>
+			<div class="text-content">
+				<div class="row">
+					<div class="btn-group btn-breadcrumb">
+						<a href="#" class="btn btn-info">Home</a>
+						<a href="#" class="btn btn-info">Pest Control Services </a>
+						<a href="#" class="btn btn-info">Navi&nbsp;Mumbai</a>
+					</div>
 				</div>
 			</div>
 		</section>

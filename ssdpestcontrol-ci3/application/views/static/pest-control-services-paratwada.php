@@ -60,21 +60,22 @@ Control Services in Partwada, Best Cockroach Pest Control Company" />
 		</div>
 
 		<!-- Page Title -->
-		<section class="page-title" style="background-image: url(assets/images/background/paratwada.jpg);">
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			</br>
-			<div class="row">
-				<div class="btn-group btn-breadcrumb">
-					<a href="#" class="btn btn-info">Home</a>
-					<a href="#" class="btn btn-info">Pest Control Services </a>
-					<a href="#" class="btn btn-info">Paratwada </a>
-
+		<section class="banner-section location-banner breadcrumb-banner">
+			<div class="media-content">
+				<div class="wrap">
+					<picture>
+						<source media="screen and (min-width: 512px)" srcset="<?= base_url('assets/images/banners/location_paratwada_h.png') ?>">
+						<img src="<?= base_url('assets/images/banners/location_paratwada_v.png') ?>" alt="">
+					</picture>
+				</div>
+			</div>
+			<div class="text-content">
+				<div class="row">
+					<div class="btn-group btn-breadcrumb">
+						<a href="#" class="btn btn-info">Home</a>
+						<a href="#" class="btn btn-info">Pest Control Services </a>
+						<a href="#" class="btn btn-info">Paratwada</a>
+					</div>
 				</div>
 			</div>
 		</section>

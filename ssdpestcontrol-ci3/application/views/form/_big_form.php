@@ -17,10 +17,10 @@
 				<div class="form-group col-md-6 col-sm-12">
 					<input type="text" name="contact_enq" placeholder="Phone" required>
 				</div>
-
-				<div class="form-group col-md-6 col-sm-12">
+				<input type="hidden" name="captcha_enq" value="<?= $form_captcha['word'] ?>">
+				<div class="form-group col-md-6 col-sm-12 d-none">
 					<div class="mb-2">
-						<input type="text" name="captcha_enq" placeholder="Enter Captcha" required>
+						<!-- <input type="text" name="captcha_enq" placeholder="Enter Captcha" required> -->
 					</div>
 					<?= $form_captcha['image'] ?>
 				</div>

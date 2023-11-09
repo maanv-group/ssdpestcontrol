@@ -77,9 +77,129 @@
 			</div>
 		</section>
 
+		<section class="service-details">
+			<div class="auto-container">
+				<div class="row m-0 mb-3">
+					<div class="col-lg-5 col-md-6 col-12"></div>
+					<div class="col-lg-7 col-md-6 col-12">
+						<div class="context-block">
+							<h2>Residential Pest Control Services</h2>
+							<p>
+								At SSD Pest Control, we understand that your home is your sanctuary, and the last thing you want is pesky birds making it their nesting ground. Our specialized residential bird netting service is the solution to ensure your property remains free from avian intruders, allowing you to enjoy a bird-free and peaceful environment.
+
+							</p>
+							<p>
+								Put an end to the frustration of dealing with unwanted birds around your home. Contact SSD Pest Control today to schedule our professional residential bird netting service and protect your property. By choosing our efficient bird control solutions, you can enjoy a peaceful and bird-free environment in the comfort of your home.
+
+Experience the difference of a bird-free home. Reach out to SSD Pest Control for expert residential bird netting services. Contact us for a consultation and request your free quote to get started now!
+
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row m-0 mb-3 flex-row-reverse">
+					<div class="col-lg-5 col-md-6 col-12"></div>
+					<div class="col-lg-7 col-md-6 col-12">
+						<div class="context-block">
+							<h2>Cpmmercial Pest Control Services</h2>
+							<p>
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt illo tempore, dignissimos aliquid id tenetur accusamus non modi itaque eveniet, quos deserunt est sit hic? Aliquid facilis ea minus cum.
+							</p>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae nesciunt excepturi voluptas accusantium sequi autem quidem! Rem nostrum veniam autem quibusdam. Commodi minus, fugiat neque in libero possimus dolorum adipisci!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 
 		<?php $this->load->view('components/services/_common')  ?>
+
+		<!-- Gallery Section -->
+		<section class="gallery-section">
+			<div class="auto-container">
+				<!--Filter-->
+				<div class="filters">
+					<ul class="filter-tabs filter-btns">
+						<!-- <li class="filter active" data-role="button" data-filter=".all"> All</li> -->
+						<!-- <li class="filter" data-role="button" data-filter=".cat-2">Termites</li> -->
+						<!-- <li class="filter" data-role="button" data-filter=".cat-3">Bed Bug</li> -->
+						<!-- <li class="filter" data-role="button" data-filter=".cat-4">Rodents</li> -->
+						<!-- <li class="filter" data-role="button" data-filter=".cat-2">Commercial</li> -->
+						<!-- <li class="filter" data-role="button" data-filter=".cat-3">Residential</li> -->
+						<!-- <li class="filter" data-role="button" data-filter=".cat-5">Bird Netting</li> -->
+					</ul>
+				</div>
+
+				<!--Sortable Galery-->
+				<div class="sortable-masonry">
+
+					<div class="items-container row">
+						<!-- Gallery Block -->
+						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
+							<div class="inner-box">
+								<div class="image"><img loading="lazy" src="assets/images/gallery/bird-netting/1.jpg" alt=""></div>
+								<div class="overlay">
+									<div class="zoom-btn">
+										<a href="assets/images/gallery/bird-netting/1.jpg" class="lightbox-image" data-fancybox="gallery">
+											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- gallery Block -->
+
+
+						<!-- gallery Block -->
+						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
+							<div class="inner-box">
+								<div class="image"><img loading="lazy" src="assets/images/gallery/bird-netting/2.jpg" alt=""></div>
+								<div class="overlay">
+									<div class="zoom-btn">
+										<a href="assets/images/gallery/bird-netting/2.jpg" class="lightbox-image" data-fancybox="gallery">
+											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<!-- gallery Block -->
+						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
+							<div class="inner-box">
+								<div class="image"><img loading="lazy" src="assets/images/gallery/bird-netting/3.jpg" alt=""></div>
+								<div class="overlay">
+									<div class="zoom-btn">
+										<a href="assets/images/gallery/bird-netting/3.jpg" class="lightbox-image" data-fancybox="gallery">
+											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- gallery Block -->
+						<div class="col-lg-4 col-md-6 gallery-block masonry-item all cat-3 cat-2">
+							<div class="inner-box">
+								<div class="image"><img loading="lazy" src="assets/images/gallery/bird-netting/4.jpg" alt=""></div>
+								<div class="overlay">
+									<div class="zoom-btn">
+										<a href="assets/images/gallery/bird-netting/4.jpg" class="lightbox-image" data-fancybox="gallery">
+											<img loading="lazy" src="assets/images/icons/icon-5.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- FAQ -->
 		<section class="faq-section mt-5">

@@ -49,18 +49,16 @@
 				</select>
 			</span>
 		</div>
-		<div class="form-group">
+		<input type="hidden" name="captcha_enq" value="<?= $form_captcha['word'] ?>">
+		<div class="form-group d-none">
 			<div class="mb-2">
-				<input type="text" name="captcha_enq" data-error="City field is required!" class="form-control" placeholder="City" aria-describedby="basic-addon1" required>
+				<!-- <input type="text" name="captcha_enq" data-error="City field is required!" class="form-control" placeholder="City" aria-describedby="basic-addon1" required> -->
 			</div>
 			<?= $form_captcha['image'] ?>
 		</div>
+		<button class="bt-btn bt-btnblack theme-btn btn-style-one nimm" value="submit" type="submit"><span>Submit now</span></button>
+		<?= form_close() ?>
 	</div>
 
-	<div class="clearfix"></div>
-	<div id="success"></div>
-
-	<button class="bt-btn bt-btnblack theme-btn btn-style-one nimm" value="submit" type="submit"><span>Submit now</span></button>
-	<?= form_close() ?>
 </div>
 </div>

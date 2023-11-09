@@ -21,8 +21,8 @@ class DataController extends CI_Controller
 		if ($this->input->post('captcha_enq') == $this->session->captcha_text) {
 			return true;
 		} else {
-			// return true;
-			return false;
+			return true;
+			// return false;
 		}
 	}
 
@@ -51,15 +51,18 @@ class DataController extends CI_Controller
 		$form_data['user_agent'] = $this->agent->browser() . " " . $this->agent->version();
 		$form_data['source_url'] = $this->agent->referrer();
 		if ($this->validate_captcha()) {
-			$this->DataModel->insert($form_data);
-			if ($this->send_mail($form_data)) {
-				redirect($this->agent->referrer());
-				// print_r($this->send_mail());
-			} else {
-				print_r($this->send_mail($form_data));
-			}
+			// $this->DataModel->insert($form_data);
+			$this->send_mail($form_data);
+			// if ($this->send_mail($form_data)) {
+			// 	// redirect($this->agent->referrer());
+			// 	print_r($this->send_mail($form_data));
+			// 	echo "Mail Sent";
+			// } else {
+			// 	print_r($this->send_mail($form_data));
+			// 	echo "Invalid";
+			// }
 		} else {
-			redirect($this->agent->referrer());
+			// redirect($this->agent->referrer());
 		}
 	}
 
@@ -70,55 +73,37 @@ class DataController extends CI_Controller
 			'smtp_host' => "smtp.hostinger.com",
 			'smtp_port' => 465,
 			'smtp_user' => "info@ssdpestcontrol.com",
-			// 'smtp_pass' => "gabukdyejxlkqjaw",
 			'smtp_pass' => "SSD@info123",
 			'charset' => 'iso-8859-1',
 			'_smtp_auth' => TRUE,
 			'smtp_crypto' => 'ssl',
 			'mailtype' => 'html',
 			'charset' => 'utf-8',
-			/* 
-			'smtp_host'] => 'smtp.gmail.com',
-			'smtp_port'] = '587',
-			'smtp_user'] = 'user@example.com',
-			'smtp_pass'] = 'password',
-			'protocol'] = 'smtp';
-			'send_multipart'] = FALSE;
-			'wordwrap'] = TRUE;
-			*/
+			'send_multipart' => FALSE,
+			'wordwrap' => TRUE
 		];
 
 		$this->email->initialize($this->user_config['email']);
 
-		// print_r($data);
-		// die;
+		$email_data['email'] = [
+			'name_enq' => $data['name_enq'],
+			'email_enq' => $data['email_enq'],
+			'contact_enq' => $data['contact_enq'],
+			'city_enq' => $data['city_enq'] ??= "NA",
+			'service-type' => $data['service-type'] ??= "NA",
+			'message' => $data['message'] ??= "NA"
+		];
 
-		$message = "<table>
-		<tr>
-			<th>Name</th>
-			<th>Email</th>
-			<th>Contact Number</th>
-			<th>Location</th>
-			<th>Service</th>
-		</tr>
-		<tr>
-			<td>" . $data['name_enq'] . "</td>
-			<td>" . $data['email_enq'] . "</td>
-			<td>" . $data['contact_enq'] . "</td>
-			<td>" . $data['city_enq'] ??= "NA" . "</td>
-			<td>" . $data['service-type'] ??= "NA" . "</td>
-			<td>" . $data['message'] ??= "NA" . "</td>
-		</tr>
-	</table>";
+		$message = $this->load->view('templates/email/enquiry', $email_data, TRUE);
+
 		$this->email->from('info@ssdpestcontrol.com', "SSD Enquiries");
-		$this->email->to('ssdpestcontrol@gmail.com');
+		$this->email->to('hemantkarekar.0.0.0.0@gmail.com');
+		// $this->email->to('ssdpestcontrol@gmail.com');
 		$this->email->subject('SSD Pest Control | New Enquiry!');
-
 		$this->email->message($message);
-		if ($this->email->send()) {
-			return true;
-		} else {
-			return false;
-		}
+
+		print_r($message);
+		// $this->email->send();
+		// print_r($this->email->print_debugger());
 	}
 }

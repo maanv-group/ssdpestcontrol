@@ -254,10 +254,7 @@
 				</div>
 			</div>
 		</section>
-
-		</br>
-		</br>
-
+		<?php $this->load->view('sections/_common_facts'); ?>
 		<?php $this->load->view('components/_common_footer'); ?>
 
 	</div>

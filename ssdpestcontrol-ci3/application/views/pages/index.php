@@ -199,10 +199,8 @@
 				</div>
 			</div>
 		</section>
-
-		</br>
-		</br>
-		</br>
+		
+		<?php $this->load->view('sections/_common_facts'); ?>
 
 		<!-- Testimonial Section Two -->
 		<section class="testimonials-section-two">
